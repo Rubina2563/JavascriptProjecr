@@ -1,0 +1,130 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Edu+SA+Beginner:wght@500&family=Poppins:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Edu+SA+Beginner:wght@500&family=Libre+Franklin:ital,wght@1,200&family=Poppins:wght@200;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Edu+SA+Beginner:wght@500;700&family=Libre+Franklin:ital,wght@1,200&family=Poppins:wght@200&display=swap');
+nav{
+    font-family: 'Edu SA Beginner', cursive;}
+
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+body{
+    background-color: bisque;
+}
+
+nav li{
+    padding: 0 8px;
+}
+nav ul{
+    display: flex;
+    list-style-type: none;
+    color: azure;
+    background-color: black;
+    height: 60px;
+    align-items: center;
+}
+
+.brand{
+    display: flex;
+    align-items: center;
+    font-weight: bolder;
+    font-size: 1.3rem;
+}
+.brand img{
+    height: 55px;
+    align-items: center;
+    padding: 0 8px;
+}
+
+#Spotify{
+    align-items: center;
+}
+
+.container{
+    min-height: 70vh;
+    background-color: black;
+    color: white;
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    margin: 23px auto;
+    font-family:  'Edu SA Beginner', cursive;
+    border-radius: 12px;
+    padding: 34px;
+    background-image: url('images.jpg');
+    background-size: cover;
+    ;
+}
+.bottom{
+    position: sticky;
+    bottom: 0%;
+    background-color: black;
+   color: black;
+    height: 110px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.icon{
+    margin: 16px;
+
+}
+
+.icon i{
+    cursor: pointer;
+    color:cornsilk;
+}
+#myProgressBar{
+    width: 80vw;
+    cursor: pointer;
+}
+.soundItem{
+    height: 45px;
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+    align-items: center;
+    border-radius: 35px;
+    margin: 5px;
+}
+.soundItem img{
+    height: 28px;
+    margin: 0 23px;
+    border-radius: 50%;
+}
+.songListPlay{
+    margin:0 23px;
+    display: flex;
+    align-items: center;
+}
+.timseStamp{
+    margin:0 10 px;
+    display: flex;
+    align-items: center;
+}
+
+.timseStamp i{
+    cursor: pointer;
+}
+
+#heading{
+    margin-left: 30px;
+    padding-bottom: 4px;
+}
+.songInfo{
+    position: absolute;
+    left: 8vw;
+    color:white;
+    font-family: 'Edu SA Beginner', cursive;
+    font-size: 15px ;
+}
+.songInfo img{
+    height:20px;
+    width: 80px;
+    opacity: 0;
+    transition: opacity 0.6s ease-in;
+}
